@@ -1,0 +1,2 @@
+// Configuraçao do inetd
+cat /etc/inetd.conf
