@@ -1,0 +1,2 @@
+// Listar sudoers
+cat /etc/sudoers
