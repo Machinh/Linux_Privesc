@@ -1,0 +1,5 @@
+// Verificar o ambiente de desenvolvimento em hosts de destino
+localizar / -name perl*
+find / -name python*
+find / -name gcc* 
+find / -name cc
