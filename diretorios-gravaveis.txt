@@ -1,0 +1,2 @@
+// Encontrando diretórios graváveis no mundo
+encontrar / -perm 777
