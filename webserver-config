@@ -1,0 +1,6 @@
+// Configuraçoes do servidor-web
+cat /etc/chttp.conf
+cat /etc/lighttpd.conf
+cat /etc/apache2/apache2.conf
+cat /etc/httpd/conf/httpd.conf
+cat /opt/lampp/etc/httpd.conf
