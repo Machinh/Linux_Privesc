@@ -1,0 +1,4 @@
+// Identificar endereços IP ou MAC armazenados em cache
+arp -a
+route
+/sbin/route -nee
