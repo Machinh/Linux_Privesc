@@ -1,0 +1,3 @@
+Verificar quais sistemas de arquivos estão montados
+montar 
+df -h
