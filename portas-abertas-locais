@@ -1,0 +1,2 @@
+// Verificar se há portas abertas para conexões somente locais
+netstat -tupan
