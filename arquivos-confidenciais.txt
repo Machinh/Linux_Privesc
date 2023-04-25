@@ -1,0 +1,5 @@
+// Tentativa de exibir arquivos confidenciais
+cat /etc/passwd
+cat /etc/group
+cat /etc/shadow
+ls -alh /var/mail/
