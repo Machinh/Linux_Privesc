@@ -1,0 +1,5 @@
+// Determine which services are running as root
+// Determinar quais serviços estao rodando como root
+
+ps aux | grep root
+ps -ef | grep root
