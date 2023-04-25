@@ -1,0 +1,7 @@
+// Determinar versao do kernel - 32 ou 64-bits?
+cat /proc/version
+uname -a
+uname -mrs
+rpm -q kernel
+dmesg | grep Linux
+ls /boot | grep vmlinuz
