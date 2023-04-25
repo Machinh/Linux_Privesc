@@ -1,0 +1,5 @@
+// Verificar perfil de usuário e e-mail
+gato ~/.bashrc
+gato ~/.profile
+cat /var/mail/root
+cat /var/spool/mail/root
