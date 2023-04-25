@@ -1,0 +1,16 @@
+// Verificar se há chaves privadas acessíveis
+gato ~/.ssh/authorized_keys
+gato ~/.ssh/identity.pub
+gato ~/.ssh/identidade
+gato ~/.ssh/id_rsa.pub
+gato ~/.ssh/id_rsa
+gato ~/.ssh/id_dsa.pub
+gato ~/.ssh/id_dsa
+gato /etc/ssh/ssh_config
+gato /etc/ssh/sshd_config
+gato /etc/ssh/ssh_host_dsa_key.pub
+gato /etc/ssh/ssh_host_dsa_key
+gato /etc/ssh/ssh_host_rsa_key.pub
+gato /etc/ssh/ssh_host_rsa_key
+gato /etc/ssh/ssh_host_key.pub
+gato /etc/ssh/ssh_host_key
