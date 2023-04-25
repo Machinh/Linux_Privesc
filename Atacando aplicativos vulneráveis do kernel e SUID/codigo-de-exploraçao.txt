@@ -1,0 +1,5 @@
+// Localizando o código de exploração
+/pentest/exploits/exploitdb/searchsploit "kernel" |grep -i "root"
+cat /pentest/exploits/exploitdb/files.csv |grep -i privile
+grep -i X.X /pentest/exploits/exploitdb/files.csv |grep -i local 
+grep -i application /pentest/exploits/exploitdb/files.csv |grep -i local
