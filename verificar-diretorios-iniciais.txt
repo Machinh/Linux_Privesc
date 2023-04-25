@@ -1,0 +1,3 @@
+// Verifique se há algo interessante nos diretórios home,root
+ls -ahlR /root/
+ls -ahlR /home/
