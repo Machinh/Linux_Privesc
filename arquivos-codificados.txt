@@ -1,0 +1,4 @@
+// Existem senhas codificadas em scripts, bancos de dados ou arquivos de configuração?
+cat /var/apache2/config.inc
+cat /var/lib/mysql/mysql/user.MYD 
+cat /root/anaconda-ks.cfg
