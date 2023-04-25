@@ -1,0 +1,4 @@
+// Identificar NICs conectadas e outras redes
+/sbin/ifconfig -a
+cat /etc/network/interfaces
+cat /etc/sysconfig/network
