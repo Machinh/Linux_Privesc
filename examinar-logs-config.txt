@@ -1,0 +1,8 @@
+// Examinar a estrutura /var (logs, arquivos de configuração
+ls -alh /var/log
+ls -alh /var/mail
+ls -alh /var/carretel
+ls -alh /var/spool/lpd 
+ls -alh /var/lib/pgsql
+ls -alh /var/lib/mysql
+cat /var/lib/dhcp3/dhclient.leases
