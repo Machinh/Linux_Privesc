@@ -1,0 +1,5 @@
+// É possível sair da "cadeia" shell?
+python -c 'import pty;pty.spawn("/bin/bash")'
+echo os.system('/bin/bash')
+/bin/sh -i
+vi -> :sh ou :! UNIX_command
