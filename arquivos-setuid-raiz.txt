@@ -1,0 +1,2 @@
+// Localizar arquivos setuid raiz
+localizar / -perm +4000 -uid 0 -tipo f
