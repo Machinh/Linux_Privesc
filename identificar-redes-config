@@ -1,0 +1,7 @@
+// Identificar definições de configuração de rede (DHCP, DNS, Gateway)
+cat /etc/resolv.conf
+cat /etc/sysconfig/network
+cat /etc/networks
+iptables -L
+hostname
+dnsdomainname
