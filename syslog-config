@@ -1,0 +1,4 @@
+// Configuraçao do Syslog
+cat /etc/syslog.conf
+cat /var/log/syslog.conf
+(or just: locate syslog.conf)
