@@ -1,5 +1,8 @@
 // Localizar arquivos de configuração graváveis em /etc
-ls -aRl /etc/ | awk '$1 ~ /^.*w.*/' 2>/dev/null # Qualquer pessoa
-ls -aRl /etc/ | awk '$1 ~ /^.. w/' 2>/dev/null # Proprietário
-ls -aRl /etc/ | awk '$ 1 ~ /^..... w/' 2>/dev/null # Grupo
-ls -aRl /etc/ | awk '$1 ~ /w.$/' 2>/dev/null # Outros
+ls -aRl /etc/ | awk '$1 ~ /^.*w.*/' 2>/dev/null     # Anyone
+ls -aRl /etc/ | awk '$1 ~ /^..w/' 2>/dev/null        # Owner
+ls -aRl /etc/ | awk '$1 ~ /^.....w/' 2>/dev/null    # Group
+ls -aRl /etc/ | awk '$1 ~ /w.$/' 2>/dev/null          # Other
+
+find /etc/ -readable -type f 2>/dev/null                         # Anyone
+find /etc/ -readable -type f -maxdepth 1 2>/dev/null   # Anyone
