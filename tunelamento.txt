@@ -1,0 +1,3 @@
+// O tunelamento é possível?
+ssh -D 127.0.0.1:9050 -N [username]@[ip] 
+proxychains ifconfig
