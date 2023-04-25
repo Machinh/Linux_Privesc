@@ -1,7 +1,0 @@
-// Como os arquivos podem ser carregados?
-find / -name wget
-find / -name nc*
-localizar / -name netcat*
-find / -name tftp* 
-localizar / -name ftp
-# Se a porta 22 estiver aberta, use srvdir para saída SSH
