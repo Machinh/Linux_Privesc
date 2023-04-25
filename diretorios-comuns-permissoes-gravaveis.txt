@@ -1,0 +1,6 @@
+// Verifique diretórios comuns para permissões de gravação e execução
+find / -writable -type d 2>/dev/null # pastas world-writeable
+find / -perm -222 -type d 2>/dev/null # pastas graváveis no mundo
+find / -perm -o+w -type d 2>/dev/null # pastas graváveis no mundo
+find / -perm -o+x -type d 2>/dev/null # world-executable folders
+find / ( -perm -o+w -perm -o+x ) -type d 2>/dev/null # world-writeable & executable folders
