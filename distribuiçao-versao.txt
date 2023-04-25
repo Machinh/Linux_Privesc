@@ -1,0 +1,5 @@
+// Determinar distribuiçao linux e versao
+cat /etc/issue
+cat /etc/*-release
+cat /etc/lsb-release
+cat /etc/redhat-release
