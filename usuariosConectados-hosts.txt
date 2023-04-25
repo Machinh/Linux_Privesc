@@ -1,0 +1,11 @@
+// Identificar usuários e hosts conectados
+lsof -i 
+lsof -i :80
+grep 80 /etc/services
+netstat -antup
+netstat -antpx
+netstat -tulpn
+chkconfig --list
+chkconfig --list | grep 3:on
+last
+w
