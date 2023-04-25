@@ -1,0 +1,7 @@
+
+// Verificar o histórico do usuário para credenciais e atividades
+cat ~/.bash_history
+cat ~/.nano_history
+cat ~/.atftp_history
+cat ~/.mysql_history 
+cat ~/.php_history
