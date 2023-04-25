@@ -1,0 +1,2 @@
+// Mostrar quais comandos o sudo permite que você execute
+sudo -l
